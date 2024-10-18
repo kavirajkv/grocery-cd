@@ -16,7 +16,7 @@ spec :
     spec :
       containers :
       - name : grocerypsql 
-        image : kavirajkv/grocerypsql:v1
+        image : kavirajkv/jenkinstest:42
         ports :
         - containerPort : 5000
         env :
