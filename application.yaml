@@ -14,10 +14,9 @@ spec:
     namespace: grocery
   syncPolicy:
     syncOptions:
-    - CreateNamesapce=true
+    - CreateNamespace=true
     automated:
       selfHeal: true
       prune: true
-
 
       
